@@ -2,13 +2,49 @@
 <mx:Application xmlns:mx="http://www.adobe.com/2006/mxml"
     layout="absolute"
     backgroundColor="#00ffff"
+    creationComplete="onCreationComplete()"
     xmlns:controls="org.juicekit.visual.controls.*">
 
+    <mx:Style source="./style.css"/>
+
+    <mx:Script>
+        <![CDATA[
+            import mx.rpc.events.FaultEvent;
+            import mx.rpc.events.ResultEvent;
+            import mx.rpc.http.HTTPService;
+
+            private var loader:HTTPService;
+
+            private function onCreationComplete():void{
+                loader = new HTTPService();
+                loader.addEventListener(ResultEvent.RESULT, loadSucceeded);
+                loader.addEventListener(FaultEvent.FAULT, loadFailed);
+                loader.url = "data/data.xml";
+                loader.method = "GET";
+                loader.resultFormat = HTTPService.RESULT_FORMAT_E4X;
+                loader.send();
+            }
+
+            private function loadSucceeded(event:ResultEvent):void{
+                tree.data = event.result as XML;
+                tree.minLabelDepth = 1;
+                tree.maxLabelDepth = 1;
+                tree.validateNow();
+            }
+
+            private function loadFailed(event:FaultEvent):void{
+                trace("Failed to load data");
+            }
+
+        ]]>
+    </mx:Script>
 
 
     <controls:TreeMapControl id="tree"
       top="100"
-      width="100%" height="100%"
+      sizeEncodingField="totalcost"
+      colorEncodingField="membercost"
+      width="500" height="500"
       labelEncodingField="name"
       buttonMode="true"
       useHandCursor="true"

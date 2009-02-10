@@ -1,4 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute" backgroundColor="#ffff00">
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml"
+    layout="absolute"
+    backgroundColor="#00ffff"
+    xmlns:controls="org.juicekit.visual.controls.*">
+
+
+
+    <controls:TreeMapControl id="tree"
+      top="100"
+      width="100%" height="100%"
+      labelEncodingField="name"
+      buttonMode="true"
+      useHandCursor="true"
+      fontFamily="Arial"
+      fontSize="12"
+      truncateToFit="true"
+      textAlign="left"
+      textPosition="top"
+      />
+
 
 </mx:Application>

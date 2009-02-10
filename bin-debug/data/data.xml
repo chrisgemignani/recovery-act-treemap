@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tree SYSTEM "http://www.nomencurator.org/InfoVis2003/download/treeml.dtd">
+<tree>
+
+<declarations>    <attributeDecl name="name" type="String"/>
+    <attributeDecl name="totalcost" type="Float" />
+    <attributeDecl name="customers" type="Float" />
+    <attributeDecl name="membercost" type="Float" />
+    <attributeDecl name="compliance" type="Float" />
+    <attributeDecl name="percentile" type="Float" />
+</declarations>
+
+
+<branch>
+<attribute name="name" value="root branch" />
+<attribute name="totalcost" value="92889258.0" />
+<attribute name="membercost" value="72714.7442744" />
+<attribute name="percentile" value="0.655624242424" />
+<attribute name="customers" value="4847.0" />
+<attribute name="compliance" value="0.449846898186" />
+<branch>
+    <attribute name="name" value="IBM" />
+    <attribute name="totalcost" value="33030679.0" />
+    <attribute name="membercost" value="70958.5733834" />
+    <attribute name="percentile" value="0.680541728641" />
+    <attribute name="customers" value="2774.0" />
+    <attribute name="compliance" value="0.449430973099" />
+    <branch>
+            <attribute name="name" value="Routers" />
+        <attribute name="totalcost" value="5494914.0" />
+        <attribute name="membercost" value="5877.38578785" />
+        <attribute name="percentile" value="0.3519" />
+        <attribute name="customers" value="910.0" />
+        <attribute name="compliance" value="0.426709835055" />
+        <leaf>
+                    <attribute name="name" value="Middleware" />
+            <attribute name="totalcost" value="1069251.0" />
+            <attribute name="membercost" value="6676.85910996" />
+            <attribute name="percentile" value="0.3519" />
+            <attribute name="customers" value="191.0" />
+            <attribute name="compliance" value="0.426709835055" />
+        </leaf>
+        <leaf>
+                    <attribute name="name" value="Non-Middleware" />
+            <attribute name="totalcost" value="3857987.0" />
+            <attribute name="membercost" value="8746.87210625" />
+            <attribute name="percentile" value="0.3519" />
+            <attribute name="customers" value="765.0" />
+            <attribute name="compliance" value="0.426709835055" />
+        </leaf>
+        <leaf>
+                    <attribute name="name" value="Backend" />
+            <attribute name="totalcost" value="742679.0" />
+            <attribute name="membercost" value="7673.47038752" />
+            <attribute name="percentile" value="0.3519" />
+            <attribute name="customers" value="107.0" />
+            <attribute name="compliance" value="0.426709835055" />
+        </leaf>
+        <leaf>
+                    <attribute name="name" value="Frontend" />
+            <attribute name="totalcost" value="1701123.0" />
+            <attribute name="membercost" value="8812.09733952" />
+            <attribute name="percentile" value="0.3519" />
+            <attribute name="customers" value="169.0" />
+            <attribute name="compliance" value="0.426709835055" />
+        </leaf>
+    </branch>
+    <branch>
+            <attribute name="name" value="Switches" />
+        <attribute name="totalcost" value="1825356.0" />
+        <attribute name="membercost" value="11505.0491329" />
+        <attribute name="percentile" value="0.3524" />
+        <attribute name="customers" value="157.0" />
+        <attribute name="compliance" value="0.544719367839" />
+        <leaf>
+                    <attribute name="name" value="Middleware" />
+            <attribute name="totalcost" value="310956.0" />
+            <attribute name="membercost" value="4687.61219612" />
+            <attribute name="percentile" value="0.3524" />
+            <attribute name="customers" value="71.0" />
+            <attribute name="compliance" value="0.544719367839" />
+        </leaf>
+        <leaf>
+                    <attribute name="name" value="Non-Middleware" />
+            <attribute name="totalcost" value="533111.0" />
+            <attribute name="membercost" value="10348.8588626" />
+            <attribute name="percentile" value="0.3524" />
+            <attribute name="customers" value="51.0" />
+            <attribute name="compliance" value="0.544719367839" />
+        </leaf>
+        <leaf>
+                    <attribute name="name" value="Backend" />
+            <attribute name="totalcost" value="169129.0" />
+            <attribute name="membercost" value="6133.19367839" />
+            <attribute name="percentile" value="0.3524" />
+            <attribute name="customers" value="31.0" />
+            <attribute name="compliance" value="0.544719367839" />
+        </leaf>
+        <leaf>
+                    <attribute name="name" value="Frontend" />
+            <attribute name="totalcost" value="423150.0" />
+            <attribute name="membercost" value="23324.4719366" />
+            <attribute name="percentile" value="0.3524" />
+            <attribute name="customers" value="31.0" />
+            <attribute name="compliance" value="0.544719367839" />
+        </leaf>
+    </branch>
+    <branch>
+            <attribute name="name" value="Hyper-transports" />
+        <attribute name="totalcost" value="1225276.0" />
+        <attribute name="membercost" value="2352.68952027" />
+        <attribute name="percentile" value="0.1851" />
+        <attribute name="customers" value="754.0" />
+        <attribute name="compliance" value="0.845516475181" />
+        <leaf>
+                    <attribute name="name" value="Middleware" />
+            <attribute name="totalcost" value="293693.0" />
+            <attribute name="membercost" value="2630.94713493" />
+            <attribute name="percentile" value="0.1851" />
+            <attribute name="customers" value="115.0" />
+            <attribute name="compliance" value="0.845516475181" />
+        </leaf>
+        <leaf>
+                    <attribute name="name" value="Non-Middleware" />
+            <attribute name="totalcost" value="424107.0" />
+            <attribute name="membercost" value="2931.84095447" />
+            <attribute name="percentile" value="0.1851" />
+            <attribute name="customers" value="278.0" />
+            <attribute name="compliance" value="0.845516475181" />
+        </leaf>
+        <leaf>
+                    <attribute name="name" value="Backend" />
+            <attribute name="totalcost" value="81341.0" />
+            <attribute name="membercost" value="1987.56863569" />
+            <attribute name="percentile" value="0.1851" />
+            <attribute name="customers" value="71.0" />
+            <attribute name="compliance" value="0.845516475181" />
+        </leaf>
+        <leaf>
+                    <attribute name="name" value="Frontend" />
+            <attribute name="totalcost" value="127144.0" />
+            <attribute name="membercost" value="2002.86783841" />
+            <attribute name="percentile" value="0.1851" />
+            <attribute name="customers" value="52.0" />
+            <attribute name="compliance" value="0.845516475181" />
+        </leaf>
+    </branch>
+    <branch>
+            <attribute name="name" value="Design Solutions" />
+        <attribute name="totalcost" value="9080587.0" />
+        <attribute name="membercost" value="183622.19849" />
+        <attribute name="percentile" value="1.3685" />
+        <attribute name="customers" value="57.0" />
+        <attribute name="compliance" value="0.453411775538" />
+        <leaf>
+                    <attribute name="name" value="Middleware" />
+            <attribute name="totalcost" value="1451866.0" />
+            <attribute name="membercost" value="175821.26" />
+            <attribute name="percentile" value="1.3685" />
+            <attribute name="customers" value="12.0" />
+            <attribute name="compliance" value="0.453411775538" />
+        </leaf>
+        <leaf>
+                    <attribute name="name" value="Non-Middleware" />
+            <attribute name="totalcost" value="1471910.0" />
+            <attribute name="membercost" value="65190.5761513" />
+            <attribute name="percentile" value="1.3685" />
+            <attribute name="customers" value="31.0" />
+            <attribute name="compliance" value="0.453411775538" />
+        </leaf>
+        <leaf>
+                    <attribute name="name" value="Backend" />
+            <attribute name="totalcost" value="2579259.0" />
+            <attribute name="membercost" value="257925.9" />
+            <attribute name="percentile" value="1.3685" />
+            <attribute name="customers" value="10.0" />
+            <attribute name="compliance" value="0.453411775538" />
+        </leaf>
+        <leaf>
+                    <attribute name="name" value="Frontend" />
+            <attribute name="totalcost" value="2924560.0" />
+            <attribute name="membercost" value="255160.0" />
+            <attribute name="percentile" value="1.3685" />
+            <attribute name="customers" value="11.0" />
+            <attribute name="compliance" value="0.453411775538" />
+        </leaf>
+    </branch>
+    <branch>
+            <attribute name="name" value="Internet2" />
+        <attribute name="totalcost" value="5146630.0" />
+        <attribute name="membercost" value="66466.2378901" />
+        <attribute name="percentile" value="0.3476" />
+        <attribute name="customers" value="107.0" />
+        <attribute name="compliance" value="0.950547164303" />
+        <leaf>
+                    <attribute name="name" value="Middleware" />
+            <attribute name="totalcost" value="1696651.0" />
+            <attribute name="membercost" value="113958.572864" />
+            <attribute name="percentile" value="0.3476" />
+            <attribute name="customers" value="17.0" />
+            <attribute name="compliance" value="0.950547164303" />
+        </leaf>
+        <leaf>
+                    <attribute name="name" value="Non-Middleware" />
+            <attribute name="totalcost" value="3423392.0" />
+            <attribute name="membercost" value="55789.1728641" />
+            <attribute name="percentile" value="0.3476" />
+            <attribute name="customers" value="65.0" />
+            <attribute name="compliance" value="0.950547164303" />
+        </leaf>
+        <leaf>
+                    <attribute name="name" value="Backend" />
+            <attribute name="totalcost" value="50630.0" />
+            <attribute name="membercost" value="7565.16387516" />
+            <attribute name="percentile" value="0.3476" />
+            <attribute name="customers" value="13.0" />
+            <attribute name="compliance" value="0.950547164303" />
+        </leaf>
+        <leaf>
+                    <attribute name="name" value="Frontend" />
+            <attribute name="totalcost" value="495074.0" />
+            <attribute name="membercost" value="34904.0" />
+            <attribute name="percentile" value="0.3476" />
+            <attribute name="customers" value="21.0" />
+            <attribute name="compliance" value="0.950547164303" />
+        </leaf>
+    </branch>
+    <branch>
+            <attribute name="name" value="Thin Client Solutions Mellitus" />
+        <attribute name="totalcost" value="7657896.0" />
+        <attribute name="membercost" value="11035.7980536" />
+        <attribute name="percentile" value="0.8727" />
+        <attribute name="customers" value="737.0" />
+        <attribute name="compliance" value="0.638331577416" />
+        <leaf>
+                    <attribute name="name" value="Middleware" />
+            <attribute name="totalcost" value="573348.0" />
+            <attribute name="membercost" value="4875.04314043" />
+            <attribute name="percentile" value="0.8727" />
+            <attribute name="customers" value="82.0" />
+            <attribute name="compliance" value="0.638331577416" />
+        </leaf>
+        <leaf>
+                    <attribute name="name" value="Non-Middleware" />
+            <attribute name="totalcost" value="2164375.0" />
+            <attribute name="membercost" value="9984.41295295" />
+            <attribute name="percentile" value="0.8727" />
+            <attribute name="customers" value="215.0" />
+            <attribute name="compliance" value="0.638331577416" />
+        </leaf>
+        <leaf>
+                    <attribute name="name" value="Backend" />
+            <attribute name="totalcost" value="911408.0" />
+            <attribute name="membercost" value="17975.0324859" />
+            <attribute name="percentile" value="0.8727" />
+            <attribute name="customers" value="51.0" />
+            <attribute name="compliance" value="0.638331577416" />
+        </leaf>
+        <leaf>
+                    <attribute name="name" value="Frontend" />
+            <attribute name="totalcost" value="862753.0" />
+            <attribute name="membercost" value="11355.1433333" />
+            <attribute name="percentile" value="0.8727" />
+            <attribute name="customers" value="46.0" />
+            <attribute name="compliance" value="0.638331577416" />
+        </leaf>
+    </branch>
+    <branch>
+            <attribute name="name" value="Storage Solutions" />
+        <attribute name="totalcost" value="3368913.0" />
+        <attribute name="membercost" value="16563.615407" />
+        <attribute name="percentile" value="0.6486" />
+        <attribute name="customers" value="307.0" />
+        <attribute name="compliance" value="0.916967716967" />
+        <leaf>
+                    <attribute name="name" value="Middleware" />
+            <attribute name="totalcost" value="632776.0" />
+            <attribute name="membercost" value="4006.86625315" />
+            <attribute name="percentile" value="0.6486" />
+            <attribute name="customers" value="45.0" />
+            <attribute name="compliance" value="0.916967716967" />
+        </leaf>
+        <leaf>
+                    <attribute name="name" value="Non-Middleware" />
+            <attribute name="totalcost" value="775062.0" />
+            <attribute name="membercost" value="3787.48126" />
+            <attribute name="percentile" value="0.6486" />
+            <attribute name="customers" value="128.0" />
+            <attribute name="compliance" value="0.916967716967" />
+        </leaf>
+        <leaf>
+                    <attribute name="name" value="Backend" />
+            <attribute name="totalcost" value="2188544.0" />
+            <attribute name="membercost" value="78534.2555554" />
+            <attribute name="percentile" value="0.6486" />
+            <attribute name="customers" value="76.0" />
+            <attribute name="compliance" value="0.916967716967" />
+        </leaf>
+        <leaf>
+                    <attribute name="name" value="Frontend" />
+            <attribute name="totalcost" value="191439.0" />
+            <attribute name="membercost" value="3785.15353535" />
+            <attribute name="percentile" value="0.6486" />
+            <attribute name="customers" value="66.0" />
+            <attribute name="compliance" value="0.916967716967" />
+        </leaf>
+    </branch>
+</branch>
+<branch>
+    <attribute name="name" value="Cisco" />
+    <attribute name="totalcost" value="69868419.0" />
+    <attribute name="membercost" value="73919.9415261" />
+    <attribute name="percentile" value="0.661869269269" />
+    <attribute name="customers" value="6724.0" />
+    <attribute name="compliance" value="0.480025221944" />
+    <branch>
+            <attribute name="name" value="Routers" />
+        <attribute name="totalcost" value="13660802.0" />
+        <attribute name="membercost" value="5065.8854373" />
+        <attribute name="percentile" value="0.3519" />
+        <attribute name="customers" value="2109.0" />
+        <attribute name="compliance" value="0.439796498319" />
+        <leaf>
+                    <attribute name="name" value="Middleware" />
+            <attribute name="totalcost" value="2061795.0" />
+            <attribute name="membercost" value="5930.42942943" />
+            <attribute name="percentile" value="0.3519" />
+            <attribute name="customers" value="295.0" />
+            <attribute name="compliance" value="0.439796498319" />
+        </leaf>
+        <leaf>
+                    <attribute name="name" value="Non-Middleware" />
+            <attribute name="totalcost" value="9758061.0" />
+            <attribute name="membercost" value="5694.97797447" />
+            <attribute name="percentile" value="0.3519" />
+            <attribute name="customers" value="1736.0" />
+            <attribute name="compliance" value="0.439796498319" />
+        </leaf>
+        <leaf>
+                    <attribute name="name" value="Backend" />
+            <attribute name="totalcost" value="1659457.0" />
+            <attribute name="membercost" value="6397.34800584" />
+            <attribute name="percentile" value="0.3519" />
+            <attribute name="customers" value="291.0" />
+            <attribute name="compliance" value="0.439796498319" />
+        </leaf>
+        <leaf>
+                    <attribute name="name" value="Frontend" />
+            <attribute name="totalcost" value="751791.0" />
+            <attribute name="membercost" value="6307.79726284" />
+            <attribute name="percentile" value="0.3519" />
+            <attribute name="customers" value="84.0" />
+            <attribute name="compliance" value="0.439796498319" />
+        </leaf>
+    </branch>
+    <branch>
+            <attribute name="name" value="Switches" />
+        <attribute name="totalcost" value="3098817.0" />
+        <attribute name="membercost" value="10419.6049734" />
+        <attribute name="percentile" value="0.3524" />
+        <attribute name="customers" value="245.0" />
+        <attribute name="compliance" value="0.596562143913" />
+        <leaf>
+                    <attribute name="name" value="Middleware" />
+            <attribute name="totalcost" value="1109031.0" />
+            <attribute name="membercost" value="18180.8350565" />
+            <attribute name="percentile" value="0.3524" />
+            <attribute name="customers" value="51.0" />
+            <attribute name="compliance" value="0.596562143913" />
+        </leaf>
+        <leaf>
+                    <attribute name="name" value="Non-Middleware" />
+            <attribute name="totalcost" value="1755450.0" />
+            <attribute name="membercost" value="9685.55555554" />
+            <attribute name="percentile" value="0.3524" />
+            <attribute name="customers" value="163.0" />
+            <attribute name="compliance" value="0.596562143913" />
+        </leaf>
+        <leaf>
+                    <attribute name="name" value="Backend" />
+            <attribute name="totalcost" value="777620.0" />
+            <attribute name="membercost" value="9041.83543759" />
+            <attribute name="percentile" value="0.3524" />
+            <attribute name="customers" value="79.0" />
+            <attribute name="compliance" value="0.596562143913" />
+        </leaf>
+        <leaf>
+                    <attribute name="name" value="Frontend" />
+            <attribute name="totalcost" value="48603.0" />
+            <attribute name="membercost" value="5038.59230459" />
+            <attribute name="percentile" value="0.3524" />
+            <attribute name="customers" value="13.0" />
+            <attribute name="compliance" value="0.596562143913" />
+        </leaf>
+    </branch>
+    <branch>
+            <attribute name="name" value="Hyper-transports" />
+        <attribute name="totalcost" value="3231151.0" />
+        <attribute name="membercost" value="2518.91140703" />
+        <attribute name="percentile" value="0.1851" />
+        <attribute name="customers" value="1294.0" />
+        <attribute name="compliance" value="0.824115534053" />
+        <leaf>
+                    <attribute name="name" value="Middleware" />
+            <attribute name="totalcost" value="536729.0" />
+            <attribute name="membercost" value="3176.58811881" />
+            <attribute name="percentile" value="0.1851" />
+            <attribute name="customers" value="202.0" />
+            <attribute name="compliance" value="0.824115534053" />
+        </leaf>
+        <leaf>
+                    <attribute name="name" value="Non-Middleware" />
+            <attribute name="totalcost" value="2136890.0" />
+            <attribute name="membercost" value="2343.21111111" />
+            <attribute name="percentile" value="0.1851" />
+            <attribute name="customers" value="900.0" />
+            <attribute name="compliance" value="0.824115534053" />
+        </leaf>
+        <leaf>
+                    <attribute name="name" value="Backend" />
+            <attribute name="totalcost" value="323685.0" />
+            <attribute name="membercost" value="2231.52468521" />
+            <attribute name="percentile" value="0.1851" />
+            <attribute name="customers" value="176.0" />
+            <attribute name="compliance" value="0.824115534053" />
+        </leaf>
+        <leaf>
+                    <attribute name="name" value="Frontend" />
+            <attribute name="totalcost" value="135265.0" />
+            <attribute name="membercost" value="2426.12" />
+            <attribute name="percentile" value="0.1851" />
+            <attribute name="customers" value="60.0" />
+            <attribute name="compliance" value="0.824115534053" />
+        </leaf>
+    </branch>
+    <branch>
+            <attribute name="name" value="Design Solutions" />
+        <attribute name="totalcost" value="25759138.0" />
+        <attribute name="membercost" value="324479.753672" />
+        <attribute name="percentile" value="1.3685" />
+        <attribute name="customers" value="98.0" />
+        <attribute name="compliance" value="0.818181818182" />
+        <leaf>
+                    <attribute name="name" value="Middleware" />
+            <attribute name="totalcost" value="6673548.0" />
+            <attribute name="membercost" value="375749.846" />
+            <attribute name="percentile" value="1.3685" />
+            <attribute name="customers" value="15.0" />
+            <attribute name="compliance" value="0.818181818182" />
+        </leaf>
+        <leaf>
+                    <attribute name="name" value="Non-Middleware" />
+            <attribute name="totalcost" value="13155486.0" />
+            <attribute name="membercost" value="206431.016526" />
+            <attribute name="percentile" value="1.3685" />
+            <attribute name="customers" value="57.0" />
+            <attribute name="compliance" value="0.818181818182" />
+        </leaf>
+        <leaf>
+                    <attribute name="name" value="Backend" />
+            <attribute name="totalcost" value="4468546.0" />
+            <attribute name="membercost" value="731034.6" />
+            <attribute name="percentile" value="1.3685" />
+            <attribute name="customers" value="18.0" />
+            <attribute name="compliance" value="0.818181818182" />
+        </leaf>
+    </branch>
+    <branch>
+            <attribute name="name" value="Internet2" />
+        <attribute name="totalcost" value="2506335.0" />
+        <attribute name="membercost" value="15664.5367371" />
+        <attribute name="percentile" value="0.3476" />
+        <attribute name="customers" value="210.0" />
+        <attribute name="compliance" value="0.950299526758" />
+        <leaf>
+                    <attribute name="name" value="Middleware" />
+            <attribute name="totalcost" value="177821.0" />
+            <attribute name="membercost" value="6353.47047047" />
+            <attribute name="percentile" value="0.3476" />
+            <attribute name="customers" value="24.0" />
+            <attribute name="compliance" value="0.950299526758" />
+        </leaf>
+        <leaf>
+                    <attribute name="name" value="Non-Middleware" />
+            <attribute name="totalcost" value="920610.0" />
+            <attribute name="membercost" value="5782.75748843" />
+            <attribute name="percentile" value="0.3476" />
+            <attribute name="customers" value="172.0" />
+            <attribute name="compliance" value="0.950299526758" />
+        </leaf>
+        <leaf>
+                    <attribute name="name" value="Backend" />
+            <attribute name="totalcost" value="1613488.0" />
+            <attribute name="membercost" value="62199.6852059" />
+            <attribute name="percentile" value="0.3476" />
+            <attribute name="customers" value="29.0" />
+            <attribute name="compliance" value="0.950299526758" />
+        </leaf>
+        <leaf>
+                    <attribute name="name" value="Frontend" />
+            <attribute name="totalcost" value="25214.0" />
+            <attribute name="membercost" value="2187.46" />
+            <attribute name="percentile" value="0.3476" />
+            <attribute name="customers" value="12.0" />
+            <attribute name="compliance" value="0.950299526758" />
+        </leaf>
+    </branch>
+    <branch>
+            <attribute name="name" value="Thin Client Solutions" />
+        <attribute name="totalcost" value="8861331.0" />
+        <attribute name="membercost" value="10278.3510404" />
+        <attribute name="percentile" value="0.8727" />
+        <attribute name="customers" value="990.0" />
+        <attribute name="compliance" value="0.628945399977" />
+        <leaf>
+                    <attribute name="name" value="Middleware" />
+            <attribute name="totalcost" value="1198579.0" />
+            <attribute name="membercost" value="4990.99333333" />
+            <attribute name="percentile" value="0.8727" />
+            <attribute name="customers" value="160.0" />
+            <attribute name="compliance" value="0.628945399977" />
+        </leaf>
+        <leaf>
+                    <attribute name="name" value="Non-Middleware" />
+            <attribute name="totalcost" value="7813496.0" />
+            <attribute name="membercost" value="4187.45856542" />
+            <attribute name="percentile" value="0.8727" />
+            <attribute name="customers" value="540.0" />
+            <attribute name="compliance" value="0.628945399977" />
+        </leaf>
+        <leaf>
+                    <attribute name="name" value="Backend" />
+            <attribute name="totalcost" value="2523546.0" />
+            <attribute name="membercost" value="18846.3694122" />
+            <attribute name="percentile" value="0.8727" />
+            <attribute name="customers" value="139.0" />
+            <attribute name="compliance" value="0.628945399977" />
+        </leaf>
+        <leaf>
+                    <attribute name="name" value="Frontend" />
+            <attribute name="totalcost" value="216212.0" />
+            <attribute name="membercost" value="5972.32268056" />
+            <attribute name="percentile" value="0.8727" />
+            <attribute name="customers" value="31.0" />
+            <attribute name="compliance" value="0.628945399977" />
+        </leaf>
+    </branch>
+    <branch>
+            <attribute name="name" value="Storage Solutions" />
+        <attribute name="totalcost" value="2062134.0" />
+        <attribute name="membercost" value="7775.70492553" />
+        <attribute name="percentile" value="0.6486" />
+        <attribute name="customers" value="774.0" />
+        <attribute name="compliance" value="0.9" />
+        <leaf>
+                    <attribute name="name" value="Middleware" />
+            <attribute name="totalcost" value="382323.0" />
+            <attribute name="membercost" value="6310.07155554" />
+            <attribute name="percentile" value="0.6486" />
+            <attribute name="customers" value="42.0" />
+            <attribute name="compliance" value="0.9" />
+        </leaf>
+        <leaf>
+                    <attribute name="name" value="Non-Middleware" />
+            <attribute name="totalcost" value="1302156.0" />
+            <attribute name="membercost" value="7560.68928641" />
+            <attribute name="percentile" value="0.6486" />
+            <attribute name="customers" value="280.0" />
+            <attribute name="compliance" value="0.9" />
+        </leaf>
+        <leaf>
+                    <attribute name="name" value="Backend" />
+            <attribute name="totalcost" value="300011.0" />
+            <attribute name="membercost" value="3875.29784149" />
+            <attribute name="percentile" value="0.6486" />
+            <attribute name="customers" value="48.0" />
+            <attribute name="compliance" value="0.9" />
+        </leaf>
+        <leaf>
+                    <attribute name="name" value="Frontend" />
+            <attribute name="totalcost" value="54538.0" />
+            <attribute name="membercost" value="3948.40688236" />
+            <attribute name="percentile" value="0.6486" />
+            <attribute name="customers" value="14.0" />
+            <attribute name="compliance" value="0.9" />
+        </leaf>
+    </branch>
+</branch>
+
+</branch>
+
+</tree>

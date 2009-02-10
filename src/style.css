@@ -1,0 +1,166 @@
+/* CSS file */
+Canvas.treeMapRollOver
+{
+  fontFamily: ArialEmbedded;
+  fontSize: 9;
+  fontAntiAliasType: advanced;
+  fontWeight: normal;
+  backgroundAlpha: 0.9;
+  backgroundColor: #333;
+  color: #CCC;
+  cornerRadius: 8;
+  borderStyle: solid;
+}
+
+@font-face {
+    src: local("Arial");
+    fontFamily: "ArialEmbedded";
+    fontWeight: normal;
+}
+@font-face {
+    src: local("Arial");
+    fontFamily: "ArialEmbedded";
+    fontWeight: bold;
+}
+
+
+.majorTitle {
+  fontSize: 16;
+  font-weight: bold;
+  font-family: ArialEmbedded;
+  color: #333333;
+}
+.minorTitle {
+  fontSize: 12;
+  font-weight: normal;
+  font-family: ArialEmbedded;
+  color: #333333;
+}
+
+Label.selectedDetail{
+  fontSize: 28;
+  font-weight:bold;
+  font-family: ArialEmbedded;
+  color: #333333;
+}
+
+Label.leaf{
+  fontSize: 12;
+  font-weight:normal;
+  font-family: ArialEmbedded;
+  color: #333333;
+}
+
+.rangeEntry {
+  fontSize: 10;
+  fontWeight: normal;
+  fontFamily: ArialEmbedded;
+  color: #333333;
+  height: 20;
+}
+
+TreeMapControl {
+  font-size: 14;
+  fontFamily: ArialEmbedded;
+  fontColor: #333333;
+  fontWeight: bold;
+  textAlign: center;
+  textPosition: middle;
+  minEncodedColor:#F7E7C3;
+  midEncodedColor:#BB8655;
+  maxEncodedColor: #8D3B00;
+  highlightColors: #ffffff, #ffffff;
+  strokeThicknesses: 0, 3, 2, 1;
+  strokeColors: #000000, #000000, #000000, #000000;
+}
+
+TreemapView{
+    background-color: #ffffff;
+    background-alpha: 1.0;
+}
+
+ToggleButtonBar {
+   buttonHeight: 26;
+   buttonWidth: 130;
+   horizontalGap: -1;
+   textIndent: 0;
+   cornerRadius: 4;
+   letterSpacing: 0;
+   buttonStyleName: "mytoggleButtonBarButtonStyle";
+   selectedButtonTextStyleName: "mytoggleButtonBarSelectedButtonStyle";
+}
+
+.mytoggleButtonBarButtonStyle {
+   fillColors: #ffffff, #cccccc, #ffffff, #eeeeee;
+   themeColor: #009dff;
+   fontFamily: ArialEmbedded;
+   fontSize: 14;
+   letterSpacing: -0.5;
+   width: 180;
+   fontWeight: normal;
+   cornerRadius: 4;
+}
+
+.mytoggleButtonBarSelectedButtonStyle {
+   fillColors: #ff0000, #cccccc, #ffffff, #eeeeee;
+   themeColor: #009dff;
+   fontFamily: ArialEmbedded;
+   fontSize: 14;
+   fontWeight: bold;
+}
+
+.mytoggleButtonBarFirstButtonStyle {
+   cornerRadius: 4;
+}
+
+.mytoggleButtonBarLastButtonStyle {
+   cornerRadius: 4;
+}
+
+.tinyLabel {
+   fontFamily: ArialEmbedded;
+   fontSize: 9;
+   fontWeight: normal;
+   fontAntiAliasType: advanced;
+}
+
+ComboBox {
+  fontSize: 11;
+  font-weight:normal;
+  font-family: ArialEmbedded;
+  color: #333333;
+  cornerRadius: 0;
+  height: 20;
+}
+
+Button, .treemapLastNode {
+  fontSize: 12;
+  font-weight: normal;
+  font-family: ArialEmbedded;
+  color: #333333;
+  cornerRadius: 0;
+  height: 20;
+}
+
+.metric {
+  fontFamily: ArialEmbedded;
+  fontWeight: bold;
+  fontSize: 24;
+  color: #000000;
+  letterSpacing: -0.5;
+}
+
+
+.description {
+  fontFamily: ArialEmbedded;
+  fontWeight: normal;
+  fontSize: 11;
+  color: #666666;
+}
+
+LinkButton{
+  fontSize: 14;
+  fontWeight: bold;
+  fontFamily: ArialEmbedded;
+  fontAntiAliasType: advanced;
+}
